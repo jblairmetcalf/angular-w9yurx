@@ -1,0 +1,46 @@
+:host {
+  display: block;
+  padding: 24px 24px 50vh 24px;
+}
+
+mat-radio-button,
+mat-checkbox,
+mat-radio-button,
+mat-slide-toggle {
+  display: block;
+}
+
+.settings {
+  display: inline-block;
+  position: fixed;
+  top: 24px;
+  right: 24px;
+  z-index: 1;
+  background: white;
+  border: #ccc solid 1px;
+  border-radius: 2px;
+  padding: 24px;
+}
+
+h1,
+h2,
+a {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+h1,
+h2,
+audio {
+  margin-block-start: initial;
+  margin-block-end: initial;
+  margin-inline-start: initial;
+  margin-inline-end: initial;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 16px;
+}
