@@ -23,23 +23,22 @@
     <mat-radio-button value="end">end</mat-radio-button>
     <mat-radio-button value="nearest">nearest</mat-radio-button>
   </mat-radio-group>
-  <br />
+  <!-- <br />
   <h2>For Blair only</h2>
   <a href="https://stackblitz.com/edit/angular-w9yurx?file=src%2Fapp%2Fapp.component.ts" target="_blank">Stackblitz</a>
   <button mat-button color="primary" (click)="emit('event')">Event</button>
   <button mat-button color="primary" (click)="navigate('kubernetes-engine')">Navigate</button>
+  <div *ngIf="auth.user$ | async as user; else signIn">
+    {{ user | json }}
+    <hr>
+    <button (click)="auth.signOut()">Sign out</button>
+  </div>
+
+  <ng-template #signIn>
+    <button (click)="auth.signIn()">Sign in</button>
+  </ng-template> -->
+
 </div>
-
-<!-- <div *ngIf="auth.user$ | async as user; else signIn">
-  {{ user | json }}
-  <hr>
-  <button (click)="auth.signOut()">Sign out</button>
-</div>
-
-<ng-template #signIn>
-  <button (click)="auth.signIn()">Sign in</button>
-</ng-template> -->
-
 
 <ng-container *ngFor="let item of [0, 0, 0, 0, 0]">
   <ng-container *ngTemplateOutlet="form"></ng-container>
